@@ -1,0 +1,16 @@
+Scala:
+
+-Create proyect: sbt new scala/hello-world.g8
+-Include eclipse plugin: echo 'addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "5.1.0")' > project/plugins.sbt
+-Eclipse dependecies: sbt > eclipse
+
+Cheat sheet: https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md
+
+Scala tour: http://docs.scala-lang.org/tutorials/tour/tour-of-scala.html
+s
+SBT: go to the project and..
+	-compile
+	-test
+	-run
+	-submit -> submit carlos3lb@hotmail.com 9pdXuqdvd2Bkj5SW
+

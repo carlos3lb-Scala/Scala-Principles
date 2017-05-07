@@ -1,0 +1,14 @@
+### Scala ###
+*.class
+*.log
+
+.classpath
+.project
+.settings/
+.worksheet/
+eclipse
+
+project
+target
+
+# End 

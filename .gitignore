@@ -4,6 +4,7 @@
 
 .classpath
 .project
+.cache-main
 .settings/
 .worksheet/
 eclipse
@@ -12,3 +13,4 @@ project
 target
 
 # End 
+/bin/

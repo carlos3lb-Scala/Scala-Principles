@@ -1,3 +1,5 @@
+package rationals
+
 class Rational(x: Int, y:Int) {
 
 	require (y != 0, "denominator must be nonzero")
@@ -22,15 +24,15 @@ class Rational(x: Int, y:Int) {
 
 object rationals {
 
-	val r = new Rational(1, 2)                //> r  : Rational = 1|2
+	val r = new Rational(1, 2)                //> r  : rationals.Rational = 1|2
 	
 	(r + new Rational(2,2)).toString()        //> res0: String = 3|2
 	
-	val x = new Rational(1, 3)                //> x  : Rational = 1|3
-	val y = new Rational(5, 7)                //> y  : Rational = 5|7
-	val z = new Rational(3, 2)                //> z  : Rational = 3|2
+	val x = new Rational(1, 3)                //> x  : rationals.Rational = 1|3
+	val y = new Rational(5, 7)                //> y  : rationals.Rational = 5|7
+	val z = new Rational(3, 2)                //> z  : rationals.Rational = 3|2
 	
-	x - y - z                                 //> res1: Rational = -79|42
-	y + y                                     //> res2: Rational = 10|7
+	x - y - z                                 //> res1: rationals.Rational = -79|42
+	y + y                                     //> res2: rationals.Rational = 10|7
 	
 }
